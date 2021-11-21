@@ -57,7 +57,7 @@ impl Solution {
                     .take_while(|(x, y)| x == y)
                     .map(|(x, _)| x)
                     .collect()
-            })
+            }),
         }
     }
 }
